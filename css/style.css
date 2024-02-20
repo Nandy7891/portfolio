@@ -128,7 +128,7 @@ html {
 
 body {
   display: block;
-  background: url("/images/background.jpg") no-repeat fixed;
+  background: url("../images/background.jpg") no-repeat fixed;
   z-index: 0;
   background-size: cover;
 }
