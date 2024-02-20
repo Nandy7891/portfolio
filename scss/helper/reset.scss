@@ -1,0 +1,54 @@
+body {
+    font-size: 0.8em;
+    @media screen and (min-width: 771px) {
+        font-size: 1.2em;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    @media screen and (min-width: 441px) {
+        font-size: 2.2em;
+    }
+    @media screen and (min-width: 771px) {
+        font-size: 3em;
+    }
+}
+h2 {
+    font-size: 1.8em;
+    @media screen and (min-width: 771px) {
+        font-size: 2.3em;
+    }
+}
+h3 {
+    font-size: 1.2em;
+    @media screen and (min-width: 771px) {
+        font-size: 1.5em;
+    }
+}
+h4 {
+    font-size: 1.2em;
+    @media screen and (min-width: 771px) {
+        font-size: 1.5em;
+    }
+}
+a {
+    color: $gold-3;
+    &:hover {
+        color: $gold-2;
+        text-shadow: $gold-2 0px 0px 2px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.sans {
+    font-family: "Courier New", Courier, monospace;
+}

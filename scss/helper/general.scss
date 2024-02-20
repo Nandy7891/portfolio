@@ -1,0 +1,32 @@
+body,
+html {
+    font-family: "Hannover", "Courier New", Courier, monospace;
+}
+
+.cover {
+    object-fit: cover;
+}
+.contain {
+    object-fit: contain;
+}
+.mb {
+    &_10 {
+        margin-bottom: 10px;
+    }
+    &_15 {
+        margin-bottom: 15px;
+    }
+    &_20 {
+        margin-bottom: 20px;
+    }
+}
+
+.h-full{
+    height: 100%;
+}
+.w-full{
+    width: 100%;
+}
+.rounded-5{
+    border-radius: 15px;
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header fixed-top">
+        <div class="header-fullscreen">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+                <div class="container">
+                    <a class="navbar-brand " href="#">
+                        <div class="brand-hero d-flex justify-content-center">
+                            <div class="rounded-full">
+                                <img src="images/profil-img.jpg" alt="profil">
+                            </div>
+                            <div>
+                                <span>Nandy</span>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#main">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">A propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skill">Competence</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#real">Réalisation</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--Fin header-->
+    <div class="content">
+        <!--HOME -->
+        <section class="home-hero main section" id="main">
+            <div class="home-hero__main container p-4">
+                <div class="home-hero__title text-center bolder">
+                    <h1>Nandy Andriambololomanana </h1>
+
+                </div>
+                <div class="home-hero__info text-center">
+                    <h3>
+                        <span id="phrase" class="underline"></span>
+                    </h3>
+                </div>
+                <div class="home-hero__desc text-center p-lg-5">
+                    <h4>
+                        Explorez mon portfolio pour voir comment je transforme<br>
+                        <span class="underline">les idées</span> en réalités numériques...
+                    </h4>
+                </div>
+                <div class="section-btn d-flex justify-content-center pt-5">
+                    <a class="btn btn-custom p-3 px-5 text-center" href="#contact">
+                        contactez-moi
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--à propos-->
+        <section class="about-hero section" id="about">
+            <div class="about-hero__main container py-4">
+                <div class="row">
+                    <div class="col-md-7 about-hero__desc d-flex align-items-center">
+                        <div class="about-hero__desc--content p-5">
+                            <h4 class="underline">Je suis un developpeur passionné, avec plusieurs année d'expériences
+                                dans l'IT,</h4>
+                            <p>
+                                J'ai eu l'opportunité de travailler sur différent projets pour des clients divers
+                                .Au cours de ma carrière, j’ai eu l’opportunité de travailler sur une variété de projets
+                                pour divers clients.
+                            </p>
+                            <p>
+                                Je transforme efficacement des maquettes (PSD, Adobe XD, Figma) en pages HTML5
+                                responsives.
+                                Ma maîtrise des frameworks comme jQuery, Bootstrap et Tailwind me permet de créer des
+                                sites dynamiques et attrayants,
+                                que ce soit pour des sites vitrines, des applications mobiles ou des boutiques en ligne.
+                            </p>
+                            <p>
+                                Durant mon temps libre, je nourris une passion pour les jeux vidéo et j’apprécie
+                                assister à des événements de sports mécaniques, tels que les rallyes, les courses de
+                                vitesse et le drift. Cette quête d’adrénaline et de précision se retrouve dans mon
+                                travail, où chaque projet que j’entreprends est marqué par une attention méticuleuse aux
+                                détails et un amour pour les défis.
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-1 about-hero__profil">
+                        <div class="div d-flex justify-content-center align-items-center h-full">
+                            <img src="images/profil-img.jpg" alt="image profil" class="profil-image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Compétence-->
+        <section class="skill-hero section" id="skill">
+            <div class="container">
+                <div class="skill-hero__title mb-5">
+                    <h2 class="underline d-inline">Skills</h2>
+                </div>
+                <div class="skill-hero__progress">
+
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="main-skill">
+                                <h3>main skill</h3>
+                            </div>
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/html-5.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar html" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/css-3.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar css" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/javascript.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar css" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="main-skill">
+                                <h3>Framework</h3>
+                            </div>
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/sass-1.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/bootstrap.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-block logo-tech">
+                                    <img src="images/tech/jquery.svg" alt="">
+                                </div>
+                                <div class="progress w-100">
+                                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--Realisation-->
+        <section class="real-hero section" id="real">
+            <div class="container">
+                <div class="real-hero__title mb-5">
+                    <h2 class="underline d-inline">
+                        Mes réalisation
+                    </h2>
+                </div>
+                <div class="real-hero__content">
+                    <!-- Button trigger modal -->
+                    <div class="real-hero__block">
+                        <div class="row gy-3">
+                            <div class="col-md-4 min-h-100 real-hero__items">
+                                <div data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="h-100 card p-4 border rounded-5">
+                                    <div class="title">
+                                        <h3>Esokia : Domitis espace investisseur</h3>
+                                    </div>
+                                    <div class="link">
+                                        <a href="https://maison-artemisia.org">https://maison-artemisia.org</a>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div class="content-detail">
+                                            <p>
+                                                actuel fev 2024
+                                            </p>
+                                            <p>
+                                                Technos: laravel, VueJs, HTML5, CSS3, SASS, Bootstrap,
+                                                JavaScript, tailwind , gulp, git, slick, chartJS
+                                            </p>
+
+                                        </div>
+                                        <div class="poste">
+                                            <p>
+                                                Intégrateur front-end
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="sa" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">
+
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="project-1" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 min-h-100 real-hero__items">
+                                <div data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="h-100 d-flex card p-4 border rounded-5">
+                                    <div class="title">
+                                        <h3>Esokia: Circuits du Monde</h3>
+                                    </div>
+                                    <div class="link">
+                                        <a href="https://circuitsdumonde.ch/">https://circuitsdumonde.ch/</a>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div class="content-detail">
+                                            <p>
+                                                année : 2018
+                                            </p>
+                                            <p>
+                                                Technos: Wordpress, PHP, HTML5, CSS3, SASS, Bootstrap,
+                                                JavaScript,
+                                                jQuery, gulp, git, slick
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="poste">
+                                        <p>
+                                            Intégrateur front-end
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 min-h-100 real-hero__items">
+                                <div data-bs-toggle="modal" data-bs-target="#projetct2" class="h-100">
+                                    <div class="d-flex card p-4 h-100 rounded-5">
+                                        <div class="title">
+                                            <h3>La maison de l'artemisia</h3>
+                                        </div>
+                                        <div class="link">
+                                            <a href="https://maison-artemisia.org">https://maison-artemisia.org</a>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-between h-100">
+                                            <div class="content-detail">
+                                                <p>
+                                                    année : 2019
+                                                </p>
+                                                <p>
+                                                    Technos: Wordpress, PHP, HTML5, CSS3, SASS, Bootstrap,
+                                                    JavaScript,
+                                                    jQuery, gulp, git, slick
+                                                </p>
+
+                                            </div>
+                                            <div class="poste">
+                                                <p>
+                                                    Intégrateur front-end
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!--footer-->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="contact">
+                    <p class="upercase">Andriambololomanana Sandinandianina</p>
+                    <p>Antananarivo - madagascar</p>
+                    <p>
+                        telephone: <a href="tel:++261349979094">+261349979094</a>
+                    </p>
+                    <p>
+                        email: <a href="mailto:sandinandianina@gmail.com"><span
+                                class="sans">sandinandianina@gmail.com</span></a>
+                    </p>
+                </div>
+                <div class="social-media">
+                    <div class="facebook"><a href="facebook.com/sandinandianina">facebook</a></div>
+                    <div class="tweeter"><a href="X.com">X</a></div>
+                    <div class="instagram"><a href="Instagram.com">Instagram</a></div>
+                    <div class="linkedin"><a href="Linkedin.com">Linkedin</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
