@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var phrases = ["Intégrateur", "Développer Front-End"];
+    var phrases = ["Intégrateur", "Développeur Front-End"];
     var indexPhrase = 0;
     var indexLettre = 0;
 
