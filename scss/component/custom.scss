@@ -91,6 +91,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 }
 
@@ -144,6 +145,7 @@ body {
 
 .social-icons {
     display: flex;
+    justify-content: flex-end;
     .social-icon {
         display: block;
         width: 50px;
