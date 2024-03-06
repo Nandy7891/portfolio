@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/chart.js"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -129,16 +130,16 @@
         <!--Compétence-->
         <section class="skill-hero section" id="skill">
             <div class="container">
-                <div class="skill-hero__title mb-5">
+                <div class="skill-hero__title mb-5 text-center">
                     <h2 class="underline d-inline">Skills</h2>
                 </div>
                 <div class="skill-hero__progress">
-                    <div class="row">
-                        <div class="col-md-6 ">
-                            <div class="main-skill">
-                                <h3 class="underline mb-5">Main skill</h3>
-                            </div>
-                            <div class="flex-row d-flex align-items-center">
+                    <div class=" ">
+                        <div class="main-skill">
+                            <h3 class="underline mb-5">Main skill</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/html-5.svg" alt="">
                                 </div>
@@ -148,31 +149,33 @@
                                 </div>
                             </div>
 
-                            <div class="flex-row d-flex align-items-center">
+                            <div class="col-md-4 d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/css-3.svg" alt="">
                                 </div>
                                 <div class="progress w-100">
-                                    <div class="progress-bar css" role="progressbar" aria-valuenow="90"
+                                    <div class="progress-bar css html" role="progressbar" aria-valuenow="90"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
 
-                            <div class="flex-row d-flex align-items-center">
+                            <div class="col-md-4 d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/javascript.svg" alt="">
                                 </div>
                                 <div class="progress w-100">
-                                    <div class="progress-bar css" role="progressbar" aria-valuenow="90"
+                                    <div class="progress-bar js html" role="progressbar" aria-valuenow="90"
                                         aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 ">
-                            <div class="main-skill">
-                                <h3 class="underline mb-5">Framework</h3>
-                            </div>
-                            <div class="flex-row d-flex align-items-center">
+                    </div>
+                    <div class="">
+                        <div class="main-skill">
+                            <h3 class="underline mb-5">Framework</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 flex-row d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/sass-1.svg" alt="">
                                 </div>
@@ -182,7 +185,7 @@
                                 </div>
                             </div>
 
-                            <div class="flex-row d-flex align-items-center">
+                            <div class="col-md-4 flex-row d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/bootstrap.svg" alt="">
                                 </div>
@@ -192,7 +195,7 @@
                                 </div>
                             </div>
 
-                            <div class="flex-row d-flex align-items-center">
+                            <div class="col-md-4 flex-row d-flex align-items-center">
                                 <div class="d-block logo-tech">
                                     <img src="images/tech/jquery.svg" alt="">
                                 </div>
@@ -204,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skill-herro__workflow mb-5">
+                <div class="skill-herro__workflow mb-5 text-center">
                     <h2 class="underline d-inline">Workflow</h2>
                 </div>
                 <div class="workflow">
@@ -395,7 +398,9 @@
                     </p>
                 </div>
                 <div class="social-media col-md-6">
-                    <h3>social media</h3>
+                    <div class="d-flex text-right justify-content-end">
+                        <h3>social media</h3>
+                    </div>
                     <div class="social-icons">
                         <a class="social-icon" href="https://web.facebook.com/sandinandianina/" target="_blank">
                             <svg class="svg-inline--fa fa-facebook-f fa-w-10" aria-hidden="true" focusable="false"
@@ -431,6 +436,9 @@
             </div>
         </div>
     </footer>
+    <div class="text-center copyright">
+        copyright Nandy Andriambololomanana 2023
+    </div>
 </body>
 
 

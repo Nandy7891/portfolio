@@ -178,7 +178,7 @@ body {
   height: auto;
 }
 
-.section {
+section, .section {
   min-height: 100vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -186,7 +186,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.section:nth-child(odd) {
+section:nth-child(odd), .section:nth-child(odd) {
   background-color: rgba(238, 238, 238, 0.2);
 }
 
@@ -295,4 +295,12 @@ body {
 }
 .workflow li {
   margin-bottom: 2em;
+}
+
+.copyright {
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  width: 100%;
+  font-size: 10px;
 }
