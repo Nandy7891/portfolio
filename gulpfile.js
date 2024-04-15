@@ -13,11 +13,12 @@ gulp.task('styles', () => {
 gulp.task('minify-css', () => {
     return gulp.src('./css/*.css')
         .pipe(cleanCSS())
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./css/minified/'));
 });
 
-gulp.task('watch', gulp.series('styles', function() {
-    gulp.watch('scss/*.scss', gulp.series('styles'));
+gulp.task('watch', gulp.series('styles', function () {
+    gulp.watch('scss/**/*.scss', gulp.series('styles'));
 }));
+
 
 gulp.task('default', gulp.series('styles', 'minify-css', 'watch'));
