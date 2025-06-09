@@ -10,7 +10,7 @@ $(document).ready(function () {
                 setTimeout(afficherLettre, 100); // délai de 100 millisecondes entre chaque lettre
             } else {
                 // Effacer la phrase actuelle après un délai
-                setTimeout(function() {
+                setTimeout(function () {
                     $('#phrase').text('');
                     indexPhrase++;
                     indexLettre = 0;
@@ -29,4 +29,11 @@ $(document).ready(function () {
         }
     }
     afficherLettre();
+
+    // $(".gy-3").slick({
+    //     infinite: true,
+    //     speed: 300,
+    //     slidesToShow: 2,
+    //     slidesToScroll: 1,
+    // });
 });
