@@ -378,6 +378,7 @@ body {
   background: url("../images/background.jpg") no-repeat fixed;
   z-index: 0;
   background-size: cover;
+  color: #eee;
 }
 
 .header,
@@ -396,7 +397,7 @@ body {
 }
 
 .content {
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: rgba(68, 68, 68, 0.8);
 }
 
 .btn-custom {
@@ -433,7 +434,8 @@ section, .section {
   align-items: center;
 }
 section:nth-child(odd), .section:nth-child(odd) {
-  background-color: rgba(238, 238, 238, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .underline {

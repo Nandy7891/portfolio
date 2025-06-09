@@ -3,7 +3,7 @@ body {
     background: url("../images/background.jpg") no-repeat fixed;
     z-index: 0;
     background-size: cover;
-    // color: #eee;
+    color: #eee;
 }
 .header,
 .footer {
@@ -18,7 +18,7 @@ body {
     margin-left: 8px;
 }
 .content {
-    background-color: rgba($color: #eee, $alpha: 0.8);
+    background-color: rgba($color: #444, $alpha: 0.8);
 }
 .btn-custom {
     background: rgba($color: $white, $alpha: 0.8);
@@ -52,7 +52,8 @@ section, .section {
     justify-content: center;
     align-items: center;
     &:nth-child(odd) {
-        background-color: rgba($color: #eee, $alpha: 0.2);
+        background-color: rgba($color: #000, $alpha: 0.7);
+        text-shadow: 2px 2px 4px rgba($color: #fff, $alpha: 0.5);
     }
 }
 
